@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:getJson="com.zju.yibao.COURSES">
+
+    <include layout="@layout/toolbar_courses" />
+
+    <include layout="@layout/activity_courses_spinners"
+        android:visibility="gone"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="1.0dp" />
+
+
+</LinearLayout>

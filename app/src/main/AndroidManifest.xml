@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zju.yibao">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LOADING"
+            android:theme="@android:style/Theme.Holo.NoActionBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HOME"
+            android:launchMode="singleTask" />
+        <activity android:name=".LOGIN" />
+        <activity android:name=".COURSES" />
+        <activity android:name=".REGISTER1" />
+        <activity android:name=".REGISTER2" />
+        <activity android:name=".REGISTER3" />
+        <activity android:name=".MYINFOMATION" />
+        <activity android:name=".COURSEDETAIL" />
+        <activity android:name=".MYCOURSE" />
+        <activity android:name=".MYDISCOUNTS" />
+        <activity android:name=".MYDISCOUNTDETAIL" />
+        <activity android:name=".MYORDERS" />
+        <activity
+            android:name=".CHANGEIMFORMATION"
+            android:theme="@style/dialog" />
+        <activity
+            android:name=".DELETEORDERS"
+            android:theme="@style/dialog" />
+        <activity
+            android:name=".ADDTOORDERSCARS"
+            android:theme="@style/dialog" />
+        <activity
+            android:name=".GETDISCOUNTS"
+            android:theme="@style/dialog" />
+        <activity android:name=".SEARCHCOURSE"
+            android:theme="@style/dialog" />
+    </application>
+
+</manifest>

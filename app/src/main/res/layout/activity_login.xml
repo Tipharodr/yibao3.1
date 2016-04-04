@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:getJson="com.zju.yibao.LOGIN">
+
+    <include layout="@layout/toolbar_default" />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/user_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/user"
+        app:civ_border_color="@color/colorImageBorder"
+        app:civ_border_width="3dp" />
+
+    <View
+        android:layout_width="180dp"
+        android:layout_height="10dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <requestFocus />
+    </View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="@dimen/margin_left_right"
+        android:layout_marginRight="@dimen/margin_left_right"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/corners_default"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <RelativeLayout
+            android:id="@+id/bar_ticket"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/line_bottom"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/edit_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_edittext_up"
+                android:ellipsize="end"
+                android:gravity="left"
+                android:hint="邮箱"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColorHighlight="@android:color/white"
+                android:textColorHint="@color/colorHintText"
+                android:textCursorDrawable="@drawable/cursor_shape" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/bar_personal"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/edit_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/corner_edittext_down"
+                android:gravity="left"
+                android:hint="密码"
+                android:imeActionLabel="登录"
+                android:imeOptions="actionGo"
+                android:padding="10dp"
+                android:password="true"
+                android:singleLine="true"
+                android:textColorHighlight="@android:color/white"
+                android:textColorHint="@color/colorHintText"
+                android:textCursorDrawable="@drawable/cursor_shape" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/margin_left_right"
+        android:layout_marginRight="@dimen/margin_left_right"
+        android:background="@drawable/corners_default"
+        android:text="登录" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left_right"
+        android:layout_marginRight="@dimen/margin_left_right"
+        android:background="@drawable/corners_button"
+        android:text="注册" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="57dp"
+            android:src="@drawable/cat" />
+    </RelativeLayout>
+</LinearLayout>

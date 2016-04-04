@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/atlas/Desktop/O2O/yibao3.0/app/libs/universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.4-47622061702dc0ba5d1d0e4858e4e4fe33003483.jar" />
+    </item>
+    <item
+        jar="/Users/atlas/Desktop/O2O/yibao3.0/app/libs/fastjson-1.2.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9f675e9a1b2bf1224183005752a9214226e8aa8e">
+        <dex dex="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/pre-dexed/debug/fastjson-1.2.5-2ecf0ab0d5b49a97f0860e043b7027619791d15d.jar" />
+    </item>
+    <item
+        jar="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-5e7506841ac6d05c441c598b3a5f62f7a53175b3.jar" />
+    </item>
+    <item
+        jar="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/exploded-aar/com.ToxicBakery.viewpager.transforms/view-pager-transforms/1.2.32/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="392c97a8270ccf3cc7fe6e0a5d97a5e97a61e65c">
+        <dex dex="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/pre-dexed/debug/classes-1f108baa9a2c886a1e58b9139d5c031340e3407a.jar" />
+    </item>
+    <item
+        jar="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/exploded-aar/yibao3.0/circleimageview/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="076b7212aa63f72052a1f454c7a47b8436e69b8f">
+        <dex dex="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/pre-dexed/debug/classes-62265b04541a15366e19f8d96ae08d7a2a00e240.jar" />
+    </item>
+    <item
+        jar="/Users/atlas/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-c3bb2bca13444f67b2dbc4c51139c6d11d3e45b3.jar" />
+    </item>
+    <item
+        jar="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/pre-dexed/debug/classes-3a8b18208ea3fd79f499eb3a81ab823714355712.jar" />
+    </item>
+    <item
+        jar="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/pre-dexed/debug/classes-7df35d3bdaebffef4aae2c4f921152c5b21d049a.jar" />
+    </item>
+    <item
+        jar="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/exploded-aar/com.bigkoo/convenientbanner/2.0.3/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9f7bf6436c5ed4231e355f334f82e70a306706a3">
+        <dex dex="/Users/atlas/Desktop/O2O/yibao3.0/app/build/intermediates/pre-dexed/debug/classes-d885e8c1439a6fe861d99cffb394664b6f820333.jar" />
+    </item>
+
+</items>

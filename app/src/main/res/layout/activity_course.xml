@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_default" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include layout="@layout/activity_course_course" />
+
+            <include layout="@layout/activity_course_divider" />
+
+            <include layout="@layout/activity_course_teacher" />
+
+            <include layout="@layout/activity_course_divider" />
+
+            <include layout="@layout/activity_course_organization" />
+
+            <include layout="@layout/activity_course_divider" />
+
+            <include layout="@layout/activity_course_comment" />
+
+            <Button
+                android:id="@+id/btn_addToOrdersCar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/corners_button"
+                android:text="加入购物车" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

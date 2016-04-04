@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">艺术宝</string>
+    <string-array name="preferenceList">
+        <item>钢琴</item>
+        <item>竖笛</item>
+        <item>美声</item>
+        <item>油画</item>
+        <item>书法</item>
+        <item>小提琴</item>
+    </string-array>
+</resources>

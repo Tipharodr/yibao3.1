@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_array_star" >
+        <item>星级</item>
+        <item>3星级</item>
+        <item>4星级</item>
+        <item>5星级</item>
+    </string-array>
+
+    <string-array name="string_array_ways" >
+        <item >授课方式</item>
+        <item >老师上门</item>
+        <item >学生上门</item>
+    </string-array>
+
+    <string-array name="string_array_sex" >
+        <item >老师性别</item>
+        <item >男</item>
+        <item >女</item>
+    </string-array>
+
+    <string-array name="string_array_order" >
+        <item >智能排序</item>
+        <item >离我最近</item>
+        <item >评价最高</item>
+        <item >价钱最低</item>
+    </string-array>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:background="@color/colorPrimaryLight"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <Spinner
+        android:id="@+id/spinner_star"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:dropDownVerticalOffset="28dp"
+        android:entries="@array/string_array_star" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <Spinner
+        android:id="@+id/spinner_ways"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:dropDownVerticalOffset="28dp"
+        android:entries="@array/string_array_ways" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <Spinner
+        android:id="@+id/spinner_sex"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:dropDownVerticalOffset="28dp"
+        android:entries="@array/string_array_sex" />
+
+    <View
+        android:layout_width="0.5dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <Spinner
+        android:id="@+id/spinner_order"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="100"
+        android:dropDownVerticalOffset="28dp"
+        android:entries="@array/string_array_order"
+        android:prompt="@string/app_name" />
+
+</LinearLayout>
